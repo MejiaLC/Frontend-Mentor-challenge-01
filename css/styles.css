@@ -1,0 +1,94 @@
+body{
+    background-color: hsl(27, 66%, 92%);
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.card__container{
+    width: 90%;
+    max-width: 375px;
+}
+
+.card__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 1.3rem;
+    border-radius: 10px;
+    background-color: hsl(10, 79%, 65%);
+}
+
+.card__balance{
+    display: flex;
+    flex-direction: column;
+    color: hsl(27, 66%, 92%);
+    font-size: 1rem;
+    gap: 10px;
+}
+
+.card__balance span:nth-child(2){
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: hsl(33, 100%, 98%);
+}
+
+.chart__container{
+    background-color: hsl(33, 100%, 98%);
+    border-radius: 10px;
+    padding: 1rem 1.5rem;
+    margin-top: 16px;
+}
+
+.chart__title p{
+   color: hsl(25, 47%, 15%);
+   font-weight: 700;
+   font-size: 1.4rem;
+}
+
+.chart__footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+.chart__footer div p{
+    color: hsl(28, 10%, 53%);
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.chart__footer div span{
+    color: hsl(25, 47%, 15%);
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-top: 50px;
+    line-height: 45px;
+}
+.chart__footer div + div p:nth-child(1){
+    color: hsl(25, 47%, 15%);
+    font-weight: 700;
+    text-align: right;
+}
+
+.chart__footer div + div p:nth-child(2){
+    text-align: right;
+}
+
+hr{
+    border: 0.3px solid hsl(27, 66%, 92%);
+}

@@ -1,0 +1,14 @@
+{
+  "name": "frontend-mentor-1",
+  "version": "1.0.0",
+  "description": "![Design preview for the Expenses chart component coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MejiaLC",
+  "license": "ISC",
+  "dependencies": {
+    "chart.js": "^3.8.0"
+  }
+}

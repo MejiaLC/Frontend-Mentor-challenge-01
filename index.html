@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Expenses Chart Component</title>
+
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+  </head>
+  <body>
+    <section class="card__container">
+      <article class="card__header">
+        <div class="card__balance">
+          <span>My balance</span>
+          <span>$921.48</span>
+        </div>
+        <div class="card__logo">
+          <img src="/images/logo.svg" alt="" />
+        </div>
+      </article>
+      <article class="chart__container">
+        <div class="chart__title">
+          <p>Spending - Last 7 days</p>
+        </div>
+        <div class="chart__content">
+          <canvas id="chart" width="200" height="140"></canvas>
+        </div>
+        <hr />
+        <div class="chart__footer">
+          <div>
+            <p>Total this month</p>
+            <span>$478.33</span>
+          </div>
+          <div>
+            <p>2.4%</p>
+            <p>from last month</p>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <script src="/functions/app.js" type="module"></script>
+  </body>
+</html>
